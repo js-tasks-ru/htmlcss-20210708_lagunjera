@@ -1,3 +1,8 @@
+.accordion {
+    display: inline-block;
+    padding: 10px;
+}
+
 .accordion__item {
     font-family: Inter;
     font-style: normal;
@@ -7,11 +12,11 @@
     width: 730px;
     height: 72px;
     padding: 24px 49px 32px 32px; 
-    margin: 8px;
     background: var(--white);
     border: 1px solid var(--grey-3);
     box-sizing: border-box;
     border-radius: 8px;
+    margin-bottom: 8px;
 }
 
 .accordion__item[open] {

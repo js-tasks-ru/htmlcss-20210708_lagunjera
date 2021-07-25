@@ -5,14 +5,33 @@
         <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./button.css">
+
+        <style>
+            .btn__wrapper {
+                display: inline-block;
+                margin: 10px 0 0 10px;
+            }
+        </style>
     </head>
     <body>
-        <button name="button" class="btn btn_primary">Primary</button>
-        <button name="button" class="btn btn_secondary">Secondary</button>
-        <button name="button" class="btn btn_alternate">Alternate</button>
-        <br>
-        <button name="button" class="btn btn_primary" disabled>Primary</button>
-        <button name="button" class="btn btn_secondary" disabled>Secondary</button>
-        <button name="button" class="btn btn_alternate" disabled>Alternate</button>
+        <div class="btn__wrapper">
+            <button name="button" class="btn btn_primary">Primary</button>
+        </div>
+        <div class="btn__wrapper">
+            <button name="button" class="btn btn_secondary">Secondary</button>
+        </div>
+        <div class="btn__wrapper">
+            <button name="button" class="btn btn_alternate">Alternate</button>
+        </div>
+            <br>
+        <div class="btn__wrapper">
+            <button name="button" class="btn btn_primary" disabled>Primary</button>
+        </div>
+        <div class="btn__wrapper">
+            <button name="button" class="btn btn_secondary" disabled>Secondary</button>
+        </div>
+        <div class="btn__wrapper">
+            <button name="button" class="btn btn_alternate" disabled>Alternate</button>
+        </div>   
     </body>
 </html>

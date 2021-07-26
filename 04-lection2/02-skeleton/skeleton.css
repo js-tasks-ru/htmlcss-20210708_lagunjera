@@ -43,10 +43,10 @@
     background: var(--skeleton);
 }
 
-.skeleton__line-short {
+.skeleton__line_short {
     width: 38%;
 }
 
-.skeleton__line-middle {
+.skeleton__line_middle {
     width: 54%;
 }

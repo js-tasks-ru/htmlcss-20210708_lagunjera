@@ -1,4 +1,4 @@
-.btn-grid__btn {
+.btn {
     width: 189px;
     height: 48px;
     border-radius: 8px;
@@ -14,33 +14,33 @@
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
-.btn-grid__btn_primary {
+.btn_primary {
     background: var(--primary);
 }
 
-.btn-grid__btn_primary:hover {
+.btn_primary:hover {
     background: var(--primary-hover);
 }
 
-.btn-grid__btn_secondary {
+.btn_secondary {
     background: var(--secondary);
 }
 
-.btn-grid__btn_secondary:hover {
+.btn_secondary:hover {
     background: var(--secondary-hover);
 }
 
-.btn-grid__btn_alternate {
+.btn_alternate {
     color: var(--grey-4);
     background-color: var(--white);
     border: 1px solid var(--grey-3);
 }
 
-.btn-grid__btn_alternate:hover {
+.btn_alternate:hover {
     border: 1px solid var(--black);
 }
 
-.btn-grid__btn:disabled {
+.btn:disabled {
     opacity: 0.5;
     cursor: default;
     pointer-events: none;

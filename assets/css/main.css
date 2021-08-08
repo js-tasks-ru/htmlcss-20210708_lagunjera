@@ -3,6 +3,7 @@
 :root {
     --white: #ffffff;
     --black: #212429;
+    --black2: #000000;
     --pink: #F784AD;
 
     --purple-2: #7048E8;
@@ -33,6 +34,7 @@
     --secondary-hover: var(--purple-2);
 
     --skeleton: var(--grey-gradient);
+    --histogram: var(--blue-2);
 
 }
 

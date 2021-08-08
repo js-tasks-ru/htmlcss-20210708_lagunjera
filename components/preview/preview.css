@@ -1,0 +1,7 @@
+.preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 68px;
+    padding-bottom: 64px;
+}

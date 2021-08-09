@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./srcset.css">
+
+        <style>
+            .wrapper {
+                display: inline-block;
+                width: 300px;
+                height: 300px;
+                margin: 50px;
+            }
+        </style>
     </head>
     <body>
-
+        <div class="wrapper">
+            <img src="public/forest_400.jpg" srcset="public/forest_768.jpg 2x" alt="forest image">
+        </div>
     </body>
 </html>

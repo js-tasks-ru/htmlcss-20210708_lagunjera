@@ -15,6 +15,7 @@
     display: grid;
     grid-template-columns: auto 1fr;
     grid-column-gap: 56px;
+    
 }
 
 .page__footer {
@@ -32,5 +33,6 @@
 }
 
 .page__main-wrapper {
-     margin: auto; 
+    margin: 0 65px 0 65px;
+    max-width: 100%;
 }

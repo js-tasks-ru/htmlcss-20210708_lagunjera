@@ -1,0 +1,27 @@
+.side-menu {
+    width: 229px;
+}
+
+.side-menu__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--black2);
+    margin-bottom: 16px;
+}
+
+.side-menu__elem {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--black);
+    margin: 4px 0px;
+}
+
+.side-menu__footer {
+    margin-top: 30px;
+}

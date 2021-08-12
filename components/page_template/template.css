@@ -15,7 +15,8 @@
     display: grid;
     grid-template-columns: auto 1fr;
     grid-column-gap: 56px;
-    
+   /*  margin: auto; */
+  /*  width: 100%; */
 }
 
 .page__footer {
@@ -33,6 +34,7 @@
 }
 
 .page__main-wrapper {
-    margin: 0 65px 0 65px;
-    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
 }
